@@ -36,7 +36,7 @@ $filter = explode(",",$filters);
 	echo '<label for="Sizes"> Filter by size: </label>';
 	echo '<select id="Sizes">';
 	echo '<option value="0">All</option>';
-	$sql = "SELECT DISTINCT Size FROM shoes ORDER BY Size ASC";	
+	$sql = "SELECT DISTINCT Size FROM shoes";	
 	$result = mysqli_query($dbhandle, $sql);
 	if ($result->num_rows > 0) {
 		// output data of each row

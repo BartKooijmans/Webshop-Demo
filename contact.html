@@ -7,51 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="style.css">
+	<script src="./webshopScript.js"></script>
   </head>
-  <body>
-	<script src="./js/WebshopScript.js"></script>
-    <h1>TMA03 Erewhon Diary Demonstration</h1>
-    <section class="banner">
-		<a href="index.html"><img src="./Images/Logo.jpg" alt="Logo golden shoe"></a>
-	</section>
+  <body onload="addFooter();addTop()">	
+    <div id="top">
+	</div>
 	<section class="nav" id="topNav">
-		<a href="index.html" class="active">Home</a>
+		<a href="index.html">Home</a>
 		<a href="products.html">Products</a>
-		<a href="contact.html">Contact</a>
+		<a href="contact.html" class="active">Contact</a>
 		<a href="about.html">About Us</a>
 		<a href="order.html" class="order">My Basket</a>
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 			<i class="fa fa-bars"></i>
 		</a>
 	</section>
-	<section class="products">	
-	test
+	<section class="contactus">	
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla at volutpat. Ornare aenean euismod elementum nisi quis eleifend quam. A diam sollicitudin tempor id eu nisl nunc mi ipsum. Lectus magna fringilla urna porttitor.</p>
+	<h3>Contact methods</h3>
+	<p>You can contact us Monday to Friday between 9am till 5pm via the phone on <a href="tel:013034997111">+1 (303) 499-7111</a>.</p>
 	</section>
 	<br>
-	<section class="information">
-		<div class="info">
-		<h2>Shiping</h2>
-		Items are shipped every tuesday at 3pm. The estimated time for delivery.......................................................
-		</div>	
-		<div class="info">
-		<h2>Contact us</h2>
-		You can contact us Monday to Friday between 9am till 5pm via the phone on <a href="tel:013034997111">+1 (303) 499-7111</a>.<br>
-		<a href="contact.html">Learn More</a>
-		</div>
-		<div class="info">
-		<h2>Gift Wrapping</h2>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		</div>	
-		<div class="info">
-		<h2>Basket</h2>
-			Our basket will store you items on your computer, if you choose not to place the order the items will remain in your basket.<br>
-			<a href="order.html">Learn More</a>
-		</div>
-	</section>
-	<section class="footer">
-		<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-		<a href="https://www.instagram.com/" class="fa fa-twitter"></a>
-		<a href="https://twitter.com/" class="fa fa-instagram"></a>
+	<section class="information" id="footer">	
 	</section>
   </body>
 </html>
